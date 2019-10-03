@@ -125,4 +125,34 @@ body {
 
 .logo-footer {
     margin-left: 25px;
+    margin-top: 20px;
+}
+
+.logo-container {
+    display:inline-block!important;
+    justify-content:left!important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body {
+        margin-top: 56px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .presentacion p {
+        font-size: 1.1rem;
+    }
+
+    .logo-footer {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .logo-container {
+        display:flex!important;
+        justify-content:center!important;
+    }
 }
