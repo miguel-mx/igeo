@@ -1,6 +1,6 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-    margin-top: 76px;
+    margin-top: 59px;
 }
 
 .h1, h1 {
@@ -110,4 +110,19 @@ body {
 
 .hotel {
     font-size: 1rem !important;
+}
+
+/*.bg-dark {*/
+/*    background-color: #000000!important;*/
+/*}*/
+
+.footer {
+    margin-top: 20px;
+    background-color: #343a40!important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo-footer {
+    margin-left: 25px;
 }
