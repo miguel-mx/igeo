@@ -133,6 +133,10 @@ body {
     justify-content:left!important;
 }
 
+.card-body p {
+    font-size: 1.1rem;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     body {
