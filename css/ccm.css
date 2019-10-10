@@ -19,10 +19,14 @@ body {
     color: #615e62;
 }
 .hero-image {
-    background: url(../img/hero-background.png) no-repeat center;
-    background-size: cover;
+    /*background: url(../img/background-header.png) no-repeat center;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+
+    /*background-image: linear-gradient(to bottom, #000c2e, #8f0068);*/
+    position: relative;
+    background-image: linear-gradient(to bottom, #120125, #880085);
     min-height: 340px;
-    background-position: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -47,12 +51,21 @@ body {
     color: white;
 }
 
+#plato {
+    position: absolute;
+    height: 280px;
+    /*opacity: 0.92;*/
+    margin-left: 55%;
+    bottom: 0px;
+    /*box-sizing:border-box;*/
+}
+
 .presentacion p {
     font-size: 1.2rem;
 }
 
 #plenary {
-    background: #18448E;
+    background: #004188;
     padding-top: 40px;
     padding-bottom: 40px;
 }
